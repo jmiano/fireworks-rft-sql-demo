@@ -1,0 +1,21 @@
+# .gcloudignore
+
+# 1. Ignore EVERYTHING in the directory by default.
+*
+
+# 2. Now, create exceptions for ONLY the files needed by the Dockerfile.
+# The "!" character means "do not ignore this file".
+
+# The Dockerfile itself is needed for the build process.
+!Dockerfile
+
+# The files explicitly copied by your Dockerfile:
+!mcp_requirements.txt
+!run_mcp_server.py
+
+# 3. To include a specific file in a subdirectory, use this
+#    three-line pattern to un-ignore the directory, re-ignore its
+#    contents, and then un-ignore the specific file.
+!data/
+data/*
+!data/synthetic_openflights.db
