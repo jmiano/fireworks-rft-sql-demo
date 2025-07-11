@@ -4,7 +4,7 @@ from starlette.routing import Mount
 from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
 from mcp_server_motherduck import build_application
 
-DB   = "data/synthetic_openflights.db"          # ← path from previous steps
+DB   = "/app/data/synthetic_openflights.db"          # data directory is set in Dockerfile
 PORT = int(os.environ.get("PORT", 8080))        # Cloud Run injects $PORT
 
 # 1️⃣ Build the core SQL-aware MCP server (read-only for safety).
