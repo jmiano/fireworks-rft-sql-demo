@@ -18,7 +18,11 @@ dependencies = [
     "pyngrok>=7.2.11",
     "python-dotenv>=1.1.1",
     "requests>=2.32.4",
+    "reward-kit",
     "starlette>=0.46.2",
     "tabulate>=0.9.0",
     "uvicorn>=0.35.0",
 ]
+
+[tool.uv.sources]
+reward-kit = { path = "../../../../Code/reward-kit", editable = true }

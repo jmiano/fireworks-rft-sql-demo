@@ -12,7 +12,8 @@ wheels/
 # Data
 data/
 
-# Other files
-.env
+# Other files and folders
+.env*
+*.png
 Scratch_Notes.ipynb
 

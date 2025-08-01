@@ -15,7 +15,7 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
 | ✅ **Create a MECE query set** & compute ground-truth rows | `generated_queries.json` & `ground_truth_results.json` |
 | ✅ **Build NL ↔ SQL result pairs** for fine-tuning and eval | `final_rft_sql_train_data.jsonl` & `final_rft_sql_test_data.jsonl` |
 | ✅ **Run an RFT job on Fireworks AI** | A tuned **Qwen 2.5-7B** checkpoint |
-| ✅ **Benchmark baseline vs. tuned model** and a larger baseline | > 20% exact-match improvement over baseline and on-par with SoTA base models |
+| ✅ **Benchmark baseline vs. tuned model** and a larger baseline | > 15% exact-match improvement over baseline and on-par with SoTA base models |
 
 
 ## Agenda
