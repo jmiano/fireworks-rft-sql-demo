@@ -80,7 +80,7 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
     source .venv/bin/activate
     ```
 
-After running these commands, your environment is ready. You can proceed with the cells inside this notebook.
+After running these commands, your environment is ready. You can proceed with the tutorial.
 
 ---
 
