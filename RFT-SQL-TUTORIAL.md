@@ -190,7 +190,7 @@ Now that we have the schema, we will use a large language model to generate a co
 
 To fine-tune our model with RFT, **we will only interact with this synthetic database.**
 
-> **Real World 🌍**: This pattern is directly applicable. You would use the same approach with your production schema to generate synthetic data that maintains the statistical properties and relationships of your real data without exposing any actual records.
+> **Real World 🌍**: This pattern is directly applicable. You would use the same approach with your production schema to generate synthetic data that maintains the structure and relationships of your real data without exposing any actual records.
 
 ```python
 import pandas as pd
