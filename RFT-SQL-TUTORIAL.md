@@ -60,11 +60,10 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
     - It's significantly faster than pip and handles dependency resolution more reliably.
 
 3.  **Create a Virtual Environment and Install Packages**
-    - Once `uv` is installed, create and activate a virtual environment.
+    - Once `uv` is installed, create and activate a project and virtual environment.
     ```bash
     # Run this in your terminal
-    uv venv .venv --python 3.12
-    source .venv/bin/activate  # On Windows PowerShell: .venv\Scripts\Activate.ps1
+    uv init --python 3.12
     ```
     - Install all required packages using `uv add`.
     ```bash
@@ -73,6 +72,10 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
            pydantic python-dotenv \
            jsonlines fireworks-ai \
            mcp-sdk mcp-server-motherduck
+    ```
+    # Run this in your terminal
+    uv sync
+    source .venv/bin/activate
     ```
 
 After running these commands, your environment is ready. You can proceed with the cells inside this notebook.
