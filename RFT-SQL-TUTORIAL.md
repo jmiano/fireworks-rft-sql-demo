@@ -157,6 +157,8 @@ This approach is powerful because:
 
 The `DESCRIBE` command in DuckDB gives us comprehensive schema information without accessing any rows.
 
+> **Real World 🌍**: You would connect to your production database and run the DESCRIBE command shown below, thus obtaining the schema information for all its tables.
+
 ```python
 import duckdb
 
