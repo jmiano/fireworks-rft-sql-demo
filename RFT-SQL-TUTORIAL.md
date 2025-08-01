@@ -71,7 +71,7 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
     uv add duckdb tabulate pandas pyarrow requests \
            pydantic python-dotenv \
            jsonlines fireworks-ai \
-           mcp-sdk mcp-server-motherduck
+           mcp-server-motherduck
     ```
     - Create and activate a virtual environment
     ```bash
