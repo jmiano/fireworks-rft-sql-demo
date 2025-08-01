@@ -60,7 +60,7 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
     - It's significantly faster than pip and handles dependency resolution more reliably.
 
 3.  **Create a Virtual Environment and Install Packages**
-    - Once `uv` is installed, create and activate a project and virtual environment.
+    - Once `uv` is installed, initialize a project.
     ```bash
     # Run this in your terminal
     uv init --python 3.12
@@ -73,6 +73,8 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
            jsonlines fireworks-ai \
            mcp-sdk mcp-server-motherduck
     ```
+    - Create and activate a virtual environment
+    ```bash
     # Run this in your terminal
     uv sync
     source .venv/bin/activate
