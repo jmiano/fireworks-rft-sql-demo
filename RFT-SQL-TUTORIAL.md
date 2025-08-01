@@ -63,7 +63,7 @@ Off-the-shelf LLM copilots often guess column names, ignore schema quirks, or ha
     - Once `uv` is installed, create and activate a virtual environment.
     ```bash
     # Run this in your terminal
-    uv venv .venv -- python3.12
+    uv venv .venv --python 3.12
     source .venv/bin/activate  # On Windows PowerShell: .venv\Scripts\Activate.ps1
     ```
     - Install all required packages using `uv add`.
